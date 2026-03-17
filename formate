@@ -1,0 +1,7 @@
+a=int(input(&quot;Enter number of heads:&quot;))
+if (a%2==0):
+for I in range(1,11):
+print(“{} x {}={}”.formate(1,a,1*a)
+else:
+for j in rage(1,15):
+print(“{} x {}={}”.formate(1,a,1*a))
