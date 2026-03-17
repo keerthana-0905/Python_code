@@ -1,0 +1,11 @@
+heads=int(input(&quot;Enter number of heads:&quot;))
+legs=int(input(&quot;Enter number of legs:&quot;))
+for c in range(heads+1):
+h=heads-c
+if(c*4 + h*2 == legs):
+print(&quot;Cows:&quot;,c)
+
+print(&quot;hens:&quot;,h)
+break
+else:
+print(&quot;no solution&quot;)
