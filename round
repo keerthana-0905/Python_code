@@ -1,0 +1,15 @@
+a=int(input("Enter any number ishita!!"))
+nums=[]
+while(True):
+    if a==1:
+        break
+    nums.append(a)
+    a1=[int(i)*int(i) for i in str(a)]
+    a=sum(a1)
+    if a in nums:
+        break
+print(nums)
+if(a==1):
+    print("it is ROUND")
+else:
+    print("NOT  a round")
