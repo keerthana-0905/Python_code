@@ -1,0 +1,6 @@
+a="All is well"
+c=0
+for i in range(len(a)):
+    if(a[i]==" " and a[i+1]!=" "):
+        c=c+1
+print("The number words is", c+1)
