@@ -1,0 +1,7 @@
+for i in range(13):
+print(&quot;*&quot;,end=&quot; &quot;)
+print()
+for i in range(15):
+print(&quot;* *&quot;)
+for i in range(13):
+print(&quot;*&quot;,end=&quot; &quot;)
