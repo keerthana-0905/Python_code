@@ -1,0 +1,22 @@
+class student:
+    dept="CSE"
+    def set_dim(self,name,marks):
+        self.name=name
+        self.marks=marks
+        self.p=0
+    def per(self):
+        self.p=sum(self.marks)//3
+    def display(self):
+        self.per()
+        print("1.NAME:",self.name)
+        print("2.SCORE:",self.marks)
+        print("3.DEPT:",student.dept)
+nan=student()
+kee=student()
+jay=student()
+nan.set_dim("NS",[40,50,60])
+kee.set_dim("SK",[50,60,70])
+jay.set_dim("JS",[60,70,80])
+nan.display()
+kee.display()
+jay.display()
