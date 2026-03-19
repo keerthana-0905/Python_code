@@ -1,12 +1,3 @@
-a=int(input(&quot;enter a number: &quot;))
-c=0
-for i in range(2,a):
-if(a % i==0):
-c=c+1
-if(c==0):
-print(&quot;prime&quot;)
-else:
-print(&quot;composite&quot;)
 for i in range(13):
 print(&quot;*&quot;,end=&quot; &quot;)
 print()
